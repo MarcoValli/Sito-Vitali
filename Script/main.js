@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-     var bgcol1 = "#f5997e";
+    var bgcol1 = "#f5997e";
     var bgcol2 = "#ebcbc8";
     var bgcol3 = "#8010c0";
     var bgcol4 = "#155e95";
@@ -22,9 +22,9 @@ $(document).ready(function() {
         console.log(colore);
         
     }
-    
+    var col = bgColRandomizer();
        
-    lancio(bgColRandomizer);
+    lancio(col);
     
     })
     
