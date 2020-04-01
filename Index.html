@@ -11,6 +11,44 @@
     <body class="sfondo">
          
         
+  <div class="d-flex bgAlpha" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class=" bgAlpha" id="sidebar-wrapper">
+      <div class="sidebar-heading colTxt bgAlpha">Studio Vitali</div>
+      <div class="list-group  bgAlpha">
+        <a href="#" class="colTxt bgAlpha elementoMenu">Architecture</a>
+        <a href="#" class="colTxt bgAlpha elementoMenu">Art</a>
+        <a href="#" class="colTxt bgAlpha elementoMenu">About</a>
+        <a href="#" class="colTxt bgAlpha elementoMenu">Contacts</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+     
+      <div class="container-fluid">
+        <h1 class="mt-4 colTxt">Titolone</h1>
+        <p class="colTxt">Lorem ipsumLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam noLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qu</p>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
         
         
         
