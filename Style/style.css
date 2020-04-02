@@ -11,16 +11,16 @@ body{
     margin-left: -15rem;}
 
 #sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
+  padding: 0.875rem 4.25rem;
+    padding-top: 3rem;
 }
 .sidebar-heading{
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 #sidebar-wrapper .list-group {
-  width: 15rem;
+  width: 1.2rem;
 }
 
 #page-content-wrapper {
@@ -47,7 +47,9 @@ body{
 }
 
 .elementoMenu{
-    padding: 0.07rem 2rem;
+    font-size: 1.1rem;
+    padding-top: 0.3rem ;
+    padding-left:4rem ;
 }
 .homeimage{
     width: 50rem;
