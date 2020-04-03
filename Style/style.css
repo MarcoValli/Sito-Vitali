@@ -11,7 +11,7 @@ body{
     margin-left: -15rem;}
 
 #sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 4.25rem;
+/*  padding: 0.875rem 4.25rem;*/
     padding-top: 3rem;
 }
 .sidebar-heading{
@@ -34,9 +34,15 @@ body{
     margin-left: 0;
   }
 
+    #sidebar-wrapper{
+        padding-left: 2.5rem;
+    }
+    
   #page-content-wrapper {
     min-width: 0;
     width: 80%;
+      padding-right: 3rem;
+      padding-left: 3rem;
   }
 
   #wrapper.toggled #sidebar-wrapper {
@@ -47,12 +53,13 @@ body{
 .elementoMenu{
     font-size: 1.2rem;
     padding-top: -0.1rem ;
-    padding-right:4.4rem ;
 
     text-align: right;
 }
 .homeimage{
     width: 50rem;
         padding-top: 3rem ;
+    
+    margin-bottom: 1rem;
     
 }
