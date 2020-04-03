@@ -9,50 +9,60 @@ body{
 #sidebar-wrapper {
   min-height: 100vh;
     margin-left: -15rem;}
+    margin-left: -15rem;
+padding-left: 2.5rem;
+        position: fixed;}
+
 
 #sidebar-wrapper .sidebar-heading {
-  padding: 0.875rem 4.25rem;
     padding-top: 3rem;
 }
 .sidebar-heading{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
-#sidebar-wrapper .list-group {
-  width: 1.2rem;
-}
+
 
 #page-content-wrapper {
   min-width: 100vw;
 }
 
-#wrapper.toggled #sidebar-wrapper {
-  margin-left: 0;
-}
 
+
+/*
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
   }
+*/
 
+    #sidebar-wrapper{
+        padding-left: 2.5rem;
+    }
+    
   #page-content-wrapper {
     min-width: 0;
     width: 80%;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 
-  #wrapper.toggled #sidebar-wrapper {
-    margin-left: -15rem;
-  }
-}
 
 .elementoMenu{
-    font-size: 1.1rem;
-    padding-top: 0.3rem ;
-    padding-left:4rem ;
+    font-size: 1.2rem;
+    padding-top: -0.1rem ;
+
+    text-align: right;
 }
 .homeimage{
     width: 50rem;
+    width: 70vw;
         padding-top: 3rem ;
     
+    margin-bottom: 1rem;
+    
+}
+a:hover{
+    text-decoration: line-through;
 }
